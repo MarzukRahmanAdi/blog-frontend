@@ -21,9 +21,9 @@ a {
 
 .card_body{
   background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
-  border-radius: 25px;
+  border-radius: 15px;
   position: relative;
 }
 .card_body > h1 {
@@ -38,14 +38,15 @@ a {
 }
 .card_body::after{
   content: "";
-  background: rgba(133, 86, 243, 0.3);
+  /* background: rgba(133, 86, 243, 0.3  ); */
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 1;
-  border-radius: 25px;
+  border-radius: 15px;
+
 
 }
   /* .card_body ::before{
